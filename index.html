@@ -36,7 +36,6 @@
 </head>
 
 <body id="page-top">
-
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -71,38 +70,54 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1 id="homeHeading">I am Kornkrit Supayanant</h1>
-                <hr>
-                <p>I like to learn about new technology including
-                    <span class="bolder-gray"> application</span>,
-                    <span class="bolder-gray">web application</span>, and
-                    <span class="bolder-gray">image processing </span>.
-                    Scrolling and learn <span class="bolder-gray">about me</span>.</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Who am I ?</h2>
-                    <hr class="light">
-                    <p class="text-faded">
-                     I'm Gear, a <span id="age"></span> year old. I graduated with a bachelor's degree in ICT from Mahidol university.
-                     I'm a Web Developer who loves to build the website, and I like to dealing with a huge data.
-                    </p>
-
-                    <a href="#resume" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
-                    <a href="Resume.pdf" target="_blank" class="page-scroll btn btn-default btn-xl sr-button">Download Resume</a>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="img/building.jpg" class="carousel-image">
+                <div class="container text-center">
+                    <div class="carousel-caption">
+                        <div class="container text-center">
+                            <h1>FA OFFICE DESIGN</h1>
+                            <h1>บริการออกแบบสำนักงาน</h1>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <div class="item">
+                <img src="img/office.jpg" class="carousel-image">
+                <div class="container text-center">
+                    <div class="carousel-caption">
+                        <div class="container text-left">
+                            <h1>Good Environment Good Job !!</h1>
+                            <h2>บริการออกแบบสำนักงาน</h2>
+                            <p>ตกแต่งภายในออฟฟิศ ออกแบบอาคาร<br/>สำนักงาน ออกแบบภูมิทัศน์สำนักงาน<br/> ออกแบบชิ้นงาน ผลิตภัณฑ์มุม จาก FA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <section id="about">
+
     </section>
 
     <section id="resume">
